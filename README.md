@@ -51,16 +51,6 @@ uvicorn src.main:app --reload --host 0.0.0.0 --port 8090
 
 Backend will start at: [http://localhost:8090](http://localhost:8090)
 
-### 6. Start the React Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-Frontend will start at: [http://localhost:3000](http://localhost:3000)
-
 ---
 
 ## 📡 API Endpoints
@@ -104,6 +94,7 @@ Recommended model: `Meta-Llama-3-70B-Instruct-AWQ` or similar.
 - PDF extraction failures will be logged to console
 
 ---
+
 
 
 
